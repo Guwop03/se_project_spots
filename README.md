@@ -21,3 +21,7 @@ The way you'll do this at work is by exporting images directly from Figma — we
 This webpage is deployed to GITHUB Pages.
 
 - [Deployment link](https://Guwop03.github.io/se_project_spots)
+
+This is my video
+
+-[Deployment link](https://drive.google.com/file/d/1X0jH23tDSw8vFz09ntCz-1pdOkaRPVPf/view?usp=drive_link)
