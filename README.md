@@ -24,4 +24,4 @@ This webpage is deployed to GITHUB Pages.
 
 This is my video
 
--[Deployment link](https://drive.google.com/file/d/1X0jH23tDSw8vFz09ntCz-1pdOkaRPVPf/view?usp=drive_link)
+-[Deployment link](https://drive.google.com/file/d/1X0jH23tDSw8vFz09ntCz-1pdOkaRPVPf/view?usp=sharing)

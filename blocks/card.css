@@ -18,7 +18,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 413px;
+  max-width: 350px;
+  margin: 0;
 }
 
 .card__content {
@@ -43,7 +44,7 @@
   opacity: 100%;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 288px) {
   .card__image {
     height: 288px;
   }
