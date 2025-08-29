@@ -44,9 +44,10 @@
   opacity: 100%;
 }
 
-@media screen and (max-width: 288px) {
+@media screen and (max-width: 630px) {
   .card__image {
     height: 288px;
+    width: 288px;
   }
 
   .card__title {
