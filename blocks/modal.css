@@ -1,0 +1,126 @@
+.modal {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal_is-opened {
+  visibility: visible;
+}
+
+.modal__container {
+  max-width: 730px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 32px 50px;
+  position: relative;
+}
+
+.modal__close-btn {
+  background-image: url(../images/x.icon.svg);
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: white;
+  color: rgba(33, 33, 33, 0.4);
+}
+
+.modal__close-btn:hover {
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 100%;
+}
+
+.modal__title {
+  font-family: Poppins, Arial, "sans-serif";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  margin: 0 0 32px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  font-family: Poppins, Arial, "sans-serif";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: rgba(33, 33, 33, 0.7);
+  margin: 0 0 32px;
+}
+
+.modal__input {
+  display: block;
+  margin: 8px 0 0;
+  width: 100%;
+  padding: 16px 12px;
+  border-radius: 8px;
+}
+
+.modal__input:hover {
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 100%;
+}
+
+.modal__input::placeholder {
+  font-family: Poppins, Arial, "sans-serif";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(33, 33, 33, 0.4);
+}
+
+.modal__submit-btn {
+  font-family: Poppins, Arial, "sans-serif";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 18px 32px;
+  max-width: 156px;
+  border-radius: 8px;
+  background-color: rgba(33, 33, 33, 1);
+  color: white;
+}
+
+.modal__close-btn:hover {
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 100%;
+}
+
+@media screen and (max-width: 630px) {
+  .modal {
+    padding: 134px 10px;
+  }
+
+  .modal__title {
+    font-family: Poppins, Arail, "sans-serif";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+  }
+
+  .modal__submit-btn {
+    width: 100%;
+    max-width: none;
+  }
+}
